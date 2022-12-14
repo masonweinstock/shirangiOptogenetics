@@ -24,7 +24,7 @@
         int recordingWarning = 5;    // time (sec) after flashing signal for user to press record
 
 // Operation mode: ramping or normal
-        bool ramping = true;         // set to true if you want intensity to ramp
+        bool ramping = false;         // set to true if you want intensity to ramp
         int activeIntensity = 255;    // active light intensity for *NON-RAMPING* mode
         int activeIntensities[] = {    // active light intensities for *RAMPING* mode: default ramps +10%/cycle
             25, 50, 75, 100, 125, 150, 175, 200, 225, 255  
